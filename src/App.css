@@ -1,12 +1,19 @@
 .App {
   text-align: center;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 10em;
 }
 
-.counter {
-  text-align: center;
+.form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.minutes {
+  margin-bottom: 1em;
+}
+
+.seconds {
+  margin-bottom: 1em;
 }
