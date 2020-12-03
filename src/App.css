@@ -10,10 +10,6 @@
   display: flex;
   flex-direction: column;
 }
-.minutes {
-  margin-bottom: 1em;
-}
-
-.seconds {
+.work {
   margin-bottom: 1em;
 }
