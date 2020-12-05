@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Timer from "./Timer";
+import Controls from "./Contols";
 
 
 
@@ -18,21 +19,18 @@ function TimerWidget() {
     //should be in controls.jsx later
     <div>
       
-      <div>
+      <div className="workTime">
         <Timer startingTime={workTime} startClock={active} />
-        <button>-</button>
-        <button>+</button>
+        <button onClick={() => setWorkTime(workTime - 1)}>-</button>
+        <button onClick={() => setWorkTime(workTime + 1)}>+</button>
       </div>
-      <div>
+      <div className="breakTime">
         <Timer startingTime={breakTime} startClock={active}/>
-        <button>-</button>
-        <button>+</button>
+        <button onClick={() => setBreakTime(breakTime - 1)}>-</button>
+        <button onClick={() => setBreakTime(breakTime + 1)}>+</button>
       </div>
 
-      <div>
-        <button onClick={toggle}>Start</button>
-        <button>Paus</button>
-      </div>
+    <Controls toggle={toggle} active={active}/>
     </div>
   );
 }
