@@ -38,7 +38,3 @@ function TimerWidget() {
 }
 
 export default TimerWidget
-
-//2 buttons Start/paus, Reset
-//2 Times shown "work time" and "break time"
-//plus and minus buttons for both work and break
