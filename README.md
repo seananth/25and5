@@ -6,6 +6,5 @@ https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 
 ##TODO:
 
-*move controlls into seperate component
+*move controlls into seperate component - done
 *build actuall count down timer
-*button component add/subtract time
