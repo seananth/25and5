@@ -1,6 +1,5 @@
-Simple productivity app that helps time my school work
+Simple productivity app using the pomodoro system.
 
-Pomodoro clock.
 
-Things i need to do
-
+Sources i used to hack this together:
+https://overreacted.io/making-setinterval-declarative-with-react-hooks/

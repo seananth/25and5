@@ -1,19 +1,19 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
-import Countdown from "./components/Countdown";
+import TimerWidget from "./components/TimerWidget";
+
 
 function App() {
 
-
-
-
   return (
-    <div className="App">
-      <div>
-
-      </div>
+    <div>
+      <TimerWidget />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+//2 buttons Start/paus, Reset
+//2 Times shown "work time" and "break time"
+//plus and minus buttons for both work and break
